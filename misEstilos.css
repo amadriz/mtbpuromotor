@@ -1,0 +1,205 @@
+label.error {
+    color: red;
+    font-style: italic;
+}
+
+.centered {
+    position: fixed !important;
+    top: 45%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.stravaWidget {
+    width: 500px;
+    height: 260px;
+}
+
+.stravatxt {
+    font-size: 1.5em;
+}
+
+.stravaBg {
+    /*         background-color: orange; */
+    background-position: center;
+    width: 100% !important;
+    height: auto;
+    border-left: 100px solid #ff6633;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-top: 100px solid transparent;
+}
+
+.stravaBtn {
+    background-color: #ff6633 !important;
+    border-color: #ff6633 !important;
+    color: #ffffff !important;
+}
+
+.Aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Aligner-item {
+    max-width: 50%;
+}
+
+.stravaImg {
+    text-align: center;
+}
+
+.stravaTitle {
+    color: orangered;
+}
+
+.newGalOro {
+    position: absolute;
+    margin-top: 21px;
+}
+
+.newMenGal {
+    color: #ffffff;
+    position: fixed;
+    font-size: x-small;
+    margin-left: 2%;
+    top: 39px;
+}
+
+.whiteTxt {
+    color: #ffffff;
+}
+
+.formStyle {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.bgSubs {
+    background-image: url(./img/bgSubs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.subsBtn {
+    font-size: 2.2em !important;
+    font-family: Roboto;
+}
+
+.messageBox {
+    width: 300px;
+    height: 135px;
+    padding: 35px;
+}
+
+.aboutPic {
+    padding: 3rem;
+    text-align: right;
+}
+
+.formCont {
+    padding: 10px;
+}
+
+.box {
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+h1,
+{
+    font-family: futura-heavy !important;
+}
+
+h3,
+h4,
+h5,
+p {
+    font-family: futura !important;
+}
+
+.robItalic {
+    font-family: Roboto-Italic;
+}
+
+@font-face {
+    font-family: Roboto-Black;
+    src: url(fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Black;
+    src: url(fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Italic;
+    src: url(fonts/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: futura;
+    src: url(fonts/FUTURA.TTF);
+}
+
+@font-face {
+    font-family: futura-medium;
+    src: url(fonts/FUTURA\ MEDIUM.TTF);
+}
+
+@font-face {
+    font-family: futura-bc;
+    src: url(fonts/FUTURABC.TTF);
+}
+
+@font-face {
+    font-family: futura-heavy;
+    src: url(fonts/FUTURAHEAVY.TTF);
+}
+
+@font-face {
+    font-family: futura-xki;
+    src: url(fonts/FUTURXKI.TTF);
+}
+
+@media screen and (max-width: 600px) {
+    .centered {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+    }
+    .messageBox {
+        height: 160px;
+    }
+    .carousel {
+        position: relative;
+        margin-top: 63px;
+    }
+    .newGalOro {
+        position: absolute;
+    }
+    .newMenGal {
+        color: #ffffff;
+        position: absolute;
+        font-size: x-small;
+        margin-left: 10%;
+        top: 30px;
+    }
+    .stravaWidget {
+        width: 250px;
+        height: 160px;
+    }
+}
